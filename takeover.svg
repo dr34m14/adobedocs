@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100%"
+     height="100%"
+     viewBox="0 0 1920 1080">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0f172a"/>
+
+  <!-- Main panel -->
+  <rect x="260"
+        y="180"
+        width="1400"
+        height="720"
+        rx="24"
+        fill="#111827"
+        stroke="#22c55e"
+        stroke-width="4"/>
+
+  <!-- Warning icon -->
+  <circle cx="960" cy="320" r="70" fill="#22c55e"/>
+
+  <text x="960"
+        y="345"
+        font-size="80"
+        fill="#0f172a"
+        text-anchor="middle"
+        font-family="Arial">
+    !
+  </text>
+
+  <!-- Heading -->
+  <text x="960"
+        y="470"
+        font-size="64"
+        fill="#f9fafb"
+        text-anchor="middle"
+        font-family="Arial">
+    This Site Is Currently Unavailable
+  </text>
+
+  <!-- Description -->
+  <text x="960"
+        y="560"
+        font-size="34"
+        fill="#d1d5db"
+        text-anchor="middle"
+        font-family="Arial">
+    The original service is not working at the moment.
+  </text>
+
+  <text x="960"
+        y="620"
+        font-size="34"
+        fill="#d1d5db"
+        text-anchor="middle"
+        font-family="Arial">
+    Please visit example.com for the active service.
+  </text>
+
+  <!-- Link -->
+  <a href="https://evil.com" target="_blank">
+    <rect x="760"
+          y="700"
+          width="400"
+          height="90"
+          rx="14"
+          fill="#22c55e"/>
+
+    <text x="960"
+          y="758"
+          font-size="38"
+          fill="#0f172a"
+          text-anchor="middle"
+          font-family="Arial">
+      Go to evil.com
+    </text>
+  </a>
+
+  <!-- Footer -->
+  <text x="960"
+        y="860"
+        font-size="24"
+        fill="#9ca3af"
+        text-anchor="middle"
+        font-family="Courier New">
+    Security Research / Bug Bounty Demonstration
+  </text>
+
+</svg>

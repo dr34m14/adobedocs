@@ -54,7 +54,7 @@
         fill="#d1d5db"
         text-anchor="middle"
         font-family="Arial">
-    Please visit example.com for the active service.
+    Please visit newsite.com for the active service.
   </text>
 
   <!-- Link -->
@@ -72,7 +72,7 @@
           fill="#0f172a"
           text-anchor="middle"
           font-family="Arial">
-      Go to evil.com
+      Go to newsite.com
     </text>
   </a>
 

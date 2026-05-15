@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="200"
+     height="100">
+
+  <rect id="go"
+        x="10"
+        y="10"
+        width="180"
+        height="80"
+        fill="green"/>
+
+  <script><![CDATA[
+    document.getElementById("go")
+      .onclick = () => {
+        location.href = "https://evil.com";
+      };
+  ]]></script>
+
+</svg>
